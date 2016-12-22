@@ -7,6 +7,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/simple-grid.css">
   <link rel="stylesheet" href="css/normalize.css">
+
+  <style type="text/css">
+    a:link {color: black; text-decoration: none;} 
+    a:visited {color: black;}  
+    a:hover {color: black;}     
+    a:active {color: black;}
+  </style>
 </head>
 
 <body>
@@ -14,25 +21,28 @@
 
   <div class="page-top">
     <header class="grid">
-      <h1 class="col-1-2" id="heading">THE BOND</h1>
+       <nav class="col-1-1" id="social-media">
+        <a href="#"><img src="img/social-media.jpg" class="resize"></a>
+      </nav>
+      <h1 class="col-1-1" id="heading">THE BOND</h1>
     </header>
   </div>
 
-  <nav class="col-1-2" id="subheadings">
-    <a href="#">The Wardrobe</a>
-    <a href="#">The Workout</a>
-    <a href="#">The Diet</a>
-    <a href="#">The Lifestyle</a>
-    <a href="#">The Archive</a>
-  </nav>
+<nav class="col-1-1" id="subheadings">
+  <a href="the-wardrobe.html">THE WARDROBE</a>
+  <a href="the-workout.html">THE WORKOUT</a>
+  <a href="the-diet.html">THE DIET</a>
+  <a href="the-lifestyle.html">THE LIFESTYLE</a>
+  <a href="index.html">THE ARCHIVE</a>
+</nav>
 
   <div class="black-line2"></div>
 
   <div id="owl-example" class="owl-carousel">
-    <div><img src="img/1.jpg"></div>
-    <div><img src="img/2.jpg"></div>
-    <div><img src="img/3.jpg"></div>
-    <div><img src="img/4.jpg"></div>
+    <div><img src="img/1.jpg" class="image-resize" id="small-images"></div>
+    <div><img src="img/2.jpg" class="image-resize"></div>
+    <div><img src="img/3.jpg" class="image-resize" id="medium-images"></div>
+    <div><img src="img/4.jpg" class="image-resize" id="small-images"></div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
